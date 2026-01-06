@@ -51,19 +51,10 @@ A real-time multiplayer Bingo game built with React, Node.js, Socket.IO, and Mon
    npm install
    ```
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/bingo-game
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-   CLIENT_URL=http://localhost:3000
-   ```
-
-4. **Start MongoDB**
+3. **Start MongoDB**
    Make sure MongoDB is running on your system or use a cloud instance.
 
-5. **Run the application**
+4. **Run the application**
    ```bash
    # Start both frontend and backend
    npm run dev
@@ -76,7 +67,7 @@ A real-time multiplayer Bingo game built with React, Node.js, Socket.IO, and Mon
    npm start
    ```
 
-6. **Access the application**
+5. **Access the application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
 
